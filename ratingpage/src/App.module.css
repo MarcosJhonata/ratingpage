@@ -62,6 +62,7 @@
   border-radius: 5%;
   height: 20rem;
   width: 20rem;
+  display: none;
 }
 
 .thanks {
