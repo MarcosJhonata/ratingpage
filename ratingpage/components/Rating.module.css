@@ -1,0 +1,27 @@
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.ratingNumber {
+
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(41, 46, 59);
+    padding: 18px;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(41, 46, 59);
+}
+
+.ratingNumber onclick:hover {
+    background: orange;
+}
