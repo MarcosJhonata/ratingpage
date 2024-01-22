@@ -10,7 +10,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 20px;
   padding: 10px;
   margin-left: 10px;
@@ -26,7 +26,7 @@
   font-size: 12px;
   margin-top: 0;
 }
-.wrapper img {
+.star {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -46,4 +46,47 @@
   height: 2.50rem;
   border-radius: 20px;
   background:orange;
+}
+
+.thanksPage {
+  background:rgb(33,40,50);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  height: 20rem;
+  width: 20rem;
+}
+
+.thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  margin-left: 90px;
+  
+}
+
+.thanksTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.finalnote {
+
+  display: flex;
+  justify-content: center;
+  background: rgb(41, 46, 59);
+  font-size: 12px;
+  margin-top: 20px;
+  color:orange;
+  width: 10rem;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left:54px ;
+  
 }
