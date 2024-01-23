@@ -14,6 +14,7 @@
   margin-top: 20px;
   padding: 10px;
   margin-left: 10px;
+  
 }
 .title {
   color: white;
@@ -62,6 +63,8 @@
   border-radius: 5%;
   height: 20rem;
   width: 20rem;
+  visibility: hidden;
+  max-height: 0;
   
 }
 
