@@ -23,6 +23,7 @@
   margin-top: 26px;
 }
 .paragraph {
+  display: flex;
   color: rgb(134,140,152);
   font-size: 12px;
   margin-top: 0;
@@ -63,14 +64,12 @@
   border-radius: 5%;
   height: 20rem;
   width: 20rem;
-  visibility: hidden;
-  max-height: 0;
   
 }
 
 .thanks {
   width: 140px;
-  margin-left: 66px;
+
   
 }
 
@@ -94,6 +93,25 @@
   width: 10rem;
   border-radius: 30px;
   padding: 10px;
-  margin-left:50px ;
+
   
+}
+
+.thanksContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  padding-inline: 28px;
+}
+
+.thanksParagraph {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  color: rgb(134,140,152);
+  font-size: 12px;
+  margin-top: 0;
 }
