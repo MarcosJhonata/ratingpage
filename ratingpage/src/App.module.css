@@ -62,16 +62,12 @@
   border-radius: 5%;
   height: 20rem;
   width: 20rem;
-  display: none;
+  
 }
 
 .thanks {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  margin-left: 90px;
+  width: 140px;
+  margin-left: 66px;
   
 }
 
@@ -91,10 +87,10 @@
   background: rgb(41, 46, 59);
   font-size: 12px;
   margin-top: 20px;
-  color:orange;
+  color: orange;
   width: 10rem;
   border-radius: 30px;
   padding: 10px;
-  margin-left:54px ;
+  margin-left:50px ;
   
 }
