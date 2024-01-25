@@ -1,4 +1,4 @@
-import { Rating } from '../components/rating'
+import { Rating } from '../components/Rating'
 import styles from './App.module.css'
 import star from '../assets/icon-star.svg';
 import thankyou from '../assets/illustration-thank-you.svg'
@@ -6,6 +6,7 @@ import { useState } from 'react';
 function App() {
 
   const [isVisible, setIsVisible ] = useState(true)  
+  const [note, setNote] = useState()
   return (
     <div className={styles.wrapper}>
 
@@ -17,8 +18,8 @@ function App() {
         Todo feedback é bem-vindo para nos ajudar a melhorar 
         o nosso serviço.
       </p>
-      <Rating/>
-      <button onClick={()=> setIsVisible(!isVisible)} className={styles.submit}>
+      <Rating setNote={setNote} note={note}/>
+      <button disabled={!note} onClick={()=> setIsVisible(!isVisible)} className={styles.submit}>
         SUBMIT
       </button>
     </div>
@@ -29,7 +30,7 @@ function App() {
 
       <img className={styles.thanks} src={thankyou} alt="" />
 
-      <h1 className={styles.finalnote}>Você selecionou 2 de 5 estrelas.</h1>
+      <h1 className={styles.finalnote}>Você selecionou {note} de 5 estrelas.</h1>
 
       <h2 className={styles.thanksTitle}>Obrigado !</h2>
 

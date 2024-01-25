@@ -25,3 +25,20 @@
 .ratingNumber:hover {
     background: orange;
 }
+
+.ratingNumberFull {
+
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:orange;
+    padding: 18px;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(41, 46, 59);
+}
